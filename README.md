@@ -4,8 +4,11 @@
 
 ![Demo Screenshot](https://github.com/Guitouxx/003-LargerThanLine/blob/main/static/screenshot.jpg?raw=true)
 
-This repo includes a fragment shader demo from the prototype "Larger Than Line" available at [https://playgl.xyz/3](https://playgl.xyz/3).
+![Other Screenshot1](https://github.com/Guitouxx/003-LargerThanLine/blob/main/static/screenshot02.jpg?raw=true)
 
+![Other Screenshot2](https://github.com/Guitouxx/003-LargerThanLine/blob/main/static/screenshot03.jpg?raw=true)
+
+This repo includes a fragment shader demo from the prototype "Larger Than Line" available at [https://playgl.xyz/3](https://playgl.xyz/3).
 
 Basically, it's a full screen quad that with a THREE.RawShaderMaterial. Please play with the available uniforms to customize the effect.
 You can update everything with the line pattern, the colors and the animation.
@@ -44,6 +47,7 @@ Now open `localhost:3000` to test. Use `yarn run build` to build everything.
 
 Thank you for the help they shared on github, x or shadertoy
 
+[Antonin Waterkeyn](https://www.instagram.com/p/CwHXsBytROx/) for the inspiration  
 [Eric Mika](https://github.com/kitschpatrol) for his [svelte-tweakpane-ui](https://github.com/kitschpatrol/svelte-tweakpane-ui) library
 
 
