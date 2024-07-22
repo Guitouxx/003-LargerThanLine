@@ -96,22 +96,21 @@ void main() {
     tex = texture(uTextureL, texUV);
   }
   
+  //get only the red channel (but could be the blue or the green as well) - my texture is white...
   float c = tex.r;
 
+  // line distortion
   float heights = sin(uv.y * uWarpHeight) * c + uThickness;
   uv.y -= heights;
 
-  //-- scale uv
+  //-- line grid
   uv = fract(uv * uTotal);
   
   //-- line and thickness
   vec2 line = floor(uv + uThickness + (c * uThicknessActive));
-  
-  //-- direction
-  float pos = line.y;
 
   // colorize the lines
-  final = mix(uColor1, mix(uColor2, uColorActive, c), pos);
+  final = mix(uColor1, mix(uColor2, uColorActive, c), line.y);
   if(uDebug == true) final = vec3(c);
   outColor = vec4(final, 1.);
 }
