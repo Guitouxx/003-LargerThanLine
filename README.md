@@ -1,12 +1,12 @@
 # 003 - Larger Than Line
 
-### [Live Demo](https://playgl-003-larger-than-life.vercel.app)
+### [Live Demo](https://003-larger-than-line.vercel.app/)
 
 ![Demo Screenshot](https://github.com/Guitouxx/003-LargerThanLine/blob/main/static/screenshot.jpg?raw=true)
 
-![Other Screenshot1](https://github.com/Guitouxx/003-LargerThanLine/blob/main/static/screenshot02.jpg?raw=true)
+![Other Screenshot1](https://github.com/Guitouxx/003-LargerThanLine/blob/main/static/screenshot02.png?raw=true)
 
-![Other Screenshot2](https://github.com/Guitouxx/003-LargerThanLine/blob/main/static/screenshot03.jpg?raw=true)
+![Other Screenshot2](https://github.com/Guitouxx/003-LargerThanLine/blob/main/static/screenshot03.png?raw=true)
 
 This repo includes a fragment shader demo from the prototype "Larger Than Line" available at [https://playgl.xyz/3](https://playgl.xyz/3).
 
