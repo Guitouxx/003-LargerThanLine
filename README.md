@@ -32,7 +32,7 @@ To run:
 
 ```sh
 # clone repo
-git clone https://github.com/Guitouxx/000-hero.git
+git clone https://github.com/Guitouxx/003-LargerThanLine
 
 # install deps
 yarn
